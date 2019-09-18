@@ -13,6 +13,10 @@ import java.util.concurrent.TimeUnit;
 
 public class App {
     public static void main( String[] args ) {
+        new App().runSimpleScenario();
+    }
+
+    public void runSimpleScenario() {
         Screen s = new Screen();
         String homePath = System.getProperty("user.dir");
         log("homePath=" + homePath);
